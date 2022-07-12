@@ -1,0 +1,79 @@
+body
+{
+    background-color: rgb(8, 8, 92);
+    color: white;
+    margin:3%;
+    margin-top: 3%;
+}
+
+h2
+{
+    color: green;
+    font-family: Arial;
+    font-size: 30;
+}
+
+h3
+{
+    color: green;
+    font-family: Arial;
+    font-size: 27;
+}
+
+p
+{
+    font-family: Arial;
+}
+
+input[name=submit]
+{
+    color: white;
+    background-color: green;
+    width: 30%;
+    padding: 12px 20px;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+input[name=tick], input[name=price], input[name=quan]
+{
+    width: 30%;
+    padding: 12px 20px;
+    margin: auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[name=tick]:focus , input[name=price]:focus, input[name=quan]:focus
+{
+    border: 3px solid rgb(37, 173, 25);
+}
+
+label
+{
+    margin-left: 28%;
+    font-family: Arial;
+}
+
+input[name=submit]:hover
+{
+    border: 1px solid rgb(49, 53, 49);
+}
+  
+input[name=submit]:active 
+{
+    background-color: green;
+} 
